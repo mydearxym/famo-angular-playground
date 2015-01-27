@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="docsApp" ng-controller="DocsController">
+  <head>
+    {% include meta_tags.html %}
+
+    <meta name="viewport" content="width=1280" />
+
+    <title>{{page.title}}{% if page.header_sub_title %} - {{ page.header_sub_title}}{% endif %} - Angular Famous</title>
+    {% include head_includes.html %}
+    <link rel="stylesheet" href="{{relative}}libs/css/syntax-hightlighting.css">
+    <script src="{{relative}}bower_components/angular/angular.min.js"></script>
+  </head>
+
+  <body class="docs docs-page docs-api">
+
+    {% include nav_links.html %}
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-sm-3 col-xs-12 side-nav">
+
+          <ul class="nav left-menu active-menu">
+
+            <li class="menu-section">
+              <a href="{{relative}}faq/index.html" class="api-section">
+                FAQ
+              </a>
+            </li>
+
+            {% include api_menu.html %}
+
+          </ul>
+
+        </div>
+
+        <div class="col-sm-offset-3 col-sm-9 col-xs-12 main-content">
+          {{ content }}
+        </div>
+
+      </div>
+
+    </div>
+
+    {% include base_scripts.html %}
+    {% include mix_panel.html %}
+    <script src="{{relative}}bower_components/famous/dist/famous-global.min.js"></script>
+    <script src="{{relative}}bower_components/famous-angular/dist/famous-angular.min.js"></script>
+    <script src="{{relative}}build/main.min.js"></script>
+  </body>
+</html>

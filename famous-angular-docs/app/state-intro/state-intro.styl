@@ -1,0 +1,183 @@
+@import '../common/variables'
+
+/***********************************************************************
+  Intro State
+***********************************************************************/
+
+.state-intro
+
+  a:hover
+    text-decoration none
+
+  .logo
+    height 123px
+
+  .intro-heading
+    h1
+      font-weight bold
+      font-size 80px
+      color white
+
+      .angular-text
+        color #DA262E
+
+  .tagline
+    font-size 30px
+    color #EBF0F0
+    margin-bottom 45px
+
+  .button-links
+    margin-bottom 20px
+    text-align center
+
+    a
+      display block
+      width 290px
+      height 85px
+      background-color white
+      border-radius 5px
+      padding-top 22px
+      font-size 28px
+      line-height 36px
+      color #1B1F1F 
+      margin 0 20px
+      transition margin-top 0.2s ease, height 0.2s ease, background-color 0.2s ease
+
+      .octicon
+        font-size 40px
+        transition opacity 0.2s ease
+
+      div.octicon
+        margin-top 20px
+        display block
+        opacity 0
+
+      span.octicon
+        margin-right 15px
+
+    &:hover
+      a
+        margin-top -20px
+        height 135px
+        background-color #10A0E6
+        color #1B1E1E
+        transition margin-top 0.2s ease, height 0.2s ease, background-color 0.2s ease
+
+        .octicon
+          opacity 1
+          transition opacity 0.2s ease
+
+  .intro-divider
+    width 150px
+    height 2px
+    margin 0 auto 30px
+    background -moz-linear-gradient(0% 50% 0deg,rgba(16, 160, 230, 1) 0%,rgba(218, 38, 46, 1) 100%)
+    background -webkit-linear-gradient(0deg, rgba(16, 160, 230, 1) 0%, rgba(218, 38, 46, 1) 100%)
+    background -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(16, 160, 230, 1) ),color-stop(1,rgba(218, 38, 46, 1) ))
+    background -o-linear-gradient(0deg, rgba(16, 160, 230, 1) 0%, rgba(218, 38, 46, 1) 100%)
+    background -ms-linear-gradient(0deg, rgba(16, 160, 230, 1) 0%, rgba(218, 38, 46, 1) 100%)
+
+  .stars-forks
+    text-align center
+    color white
+    font-size 24px
+
+    .left
+      display inline-block
+      margin-right 30px
+
+    .right
+      display inline-block
+
+    .octicon
+      font-size 26px
+      margin-right 10px
+
+  .scroll-message
+    text-align center
+
+    a
+      color #10A0E6
+
+      &:hover
+        color #10A0E6
+
+    .scroll-to
+      color #10A0E6
+      font-size 20px
+
+    .see-it
+      font-size 48px
+      font-weight 300
+      color #10A0E6
+
+  .built-by
+    font-size 22px
+    color #5C4554
+
+    .link
+
+      &:hover
+        padding-bottom 5px
+        border-bottom 2px solid #5C4554
+
+    a
+      color #5C4554
+
+  .down-arrow-image
+    height 35px
+
+
+      
+@media (max-width: 767px)
+  .state-intro
+
+    .intro-heading
+      h1
+        margin 0
+        font-weight bold
+        font-size 60px
+
+    .tagline
+      font-size 45px
+      text-align center
+      margin-bottom 40px
+
+
+    .button-links
+      margin-bottom 12px
+
+      a
+        font-size 40px
+        border-radius 10px
+        display block
+        width 740px
+        height 140px
+        padding-top 40px
+
+        .octicon
+          font-size 50px
+
+      &:hover
+        a
+          margin-top 0
+
+    .stars-forks
+      font-size 40px
+
+      .octicon
+        font-size 40px
+
+    .built-by
+      font-size 32px
+
+    .scroll-message
+
+      .scroll-to
+        font-size 25px
+
+      .see-it
+        font-size 60px
+
+    .down-arrow-image
+      height 60px

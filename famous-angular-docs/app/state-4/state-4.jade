@@ -1,0 +1,78 @@
+fa-view(ts-sheet='State4Sheet')
+  fa-modifier(
+    fa-translate='gravity.translate(gravityTimeline.get())'
+    fa-opacity='gravity.opacity(gravityTimeline.get())'
+  )
+    fa-modifier(
+      fa-translate='entireView.translate(t.get())'
+      fa-opacity='entireView.opacity(t.get())'
+    )
+      fa-modifier(id='heading')
+        fa-surface(fa-size="[true, true]")
+          h1.heading Organize your Famo.us apps with Angular’s MVC structure 
+
+      fa-modifier(id='routing-image')
+        fa-surface(fa-size='[true, true]')
+          .column-image
+            img(src='img/routing_x3.png').routing
+
+      fa-modifier(
+        id='routing-text'
+        fa-size='[true, true]'
+      )
+        fa-modifier(
+          fa-scale='routing.text.scale(t.get())'
+          fa-origin='[0.5, 0.5]'
+          fa-align='[0.5, 0.5]'
+        )
+          fa-surface.column
+            .column-label
+              | Routing
+            .learn-more
+              a(href='http://angular-ui.github.io/ui-router/site/#/api/ui.router') Learn More
+
+      fa-modifier(
+        id='dependency-image'
+        fa-size='[true, true]'
+      )
+        fa-surface
+          .column-image
+            img(src='img/dependency_x3.png').dependency
+
+      fa-modifier(
+        id='dependency-text'
+        fa-size='[600, true]'
+      )
+        fa-modifier(
+          fa-scale='dependency.text.scale(t.get())'
+          fa-origin='[0.5, 0.5]'
+          fa-align='[0.5, 0.5]'
+        )
+          fa-surface.column
+            .column-label
+              | Dependency Injection
+            .learn-more
+              a(href='https://docs.angularjs.org/guide/di') Learn More
+
+      fa-modifier(
+        id='modules-image'
+        fa-size='[true, true]'
+      )
+        fa-surface
+          .column-image
+            img(src='img/modules_x3.png').modules
+
+      fa-modifier(
+        id='modules-text'
+        fa-size='[true, true]'
+      )
+        fa-modifier(
+          fa-scale='modules.text.scale(t.get())'
+          fa-origin='[0.5, 0.5]'
+          fa-align='[0.5, 0.5]'
+        )
+          fa-surface.column
+            .column-label
+              | Modules
+            .learn-more
+              a(href='https://docs.angularjs.org/guide/concepts') Learn More

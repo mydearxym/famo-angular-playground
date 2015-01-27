@@ -1,0 +1,100 @@
+fa-view(ts-sheet='StateIntroSheet')
+  fa-modifier(
+    fa-translate='gravity.translate(gravityTimeline.get())'
+    fa-opacity='gravity.opacity(gravityTimeline.get())'
+  )
+    fa-modifier(
+      fa-translate='entireView.translate(t.get())'
+      fa-opacity='entireView.opacity(t.get())'
+      fa-align='[0.5, 0]'
+      fa-origin='[0.5, 0]'
+    )
+      fa-modifier(id='logo' ng-if="isDesktop()")
+        fa-surface(
+          fa-size="[true, true]"
+        )
+          img.logo(src='img/famous-angular-white-logo_x3.png')
+
+
+      fa-modifier(id="heading")
+        fa-surface(
+          fa-size="[true, true]"
+        ).intro-heading
+          h1
+            | Famo.us/
+            span.angular-text Angular
+
+
+      fa-modifier(id="tagline")
+        fa-surface(
+          fa-size="[true, true]"
+        )
+          p.tagline Build expressive and interactive cross-platform apps with Famo.us + AngularJS. 
+          .intro-divider
+
+
+      fa-modifier(id='button-download')
+        fa-surface(
+          fa-size="[true, true]"
+        )
+          .button-links
+            a(ui-sref='download')
+              span(ng-if='isMobile()').octicon.octicon-cloud-download
+              | Download
+              div(ng-if='isDesktop()').octicon.octicon-cloud-download
+
+      fa-modifier(id="button-github" fa-z-index="1")
+        fa-surface(
+          fa-size="[true, true]"
+        )
+          .button-links
+            a(href='https://github.com/Famous/famous-angular')
+              span(ng-if='isMobile()').octicon.octicon-mark-github
+              | Github
+              div(ng-if='isDesktop()').octicon.octicon-mark-github
+          .stars-forks
+            .left
+              span.octicon.octicon-star
+              | {{stars}} 
+            .right
+              span.octicon.octicon-repo-forked
+              | {{forks}} 
+      fa-modifier(id="button-docs")
+        fa-surface(
+          fa-size="[true, true]"
+        ).button-links
+            a(href='docs/api/index.html')
+              span(ng-if='isMobile()').octicon.octicon-file-text
+              | Docs
+              div(ng-if='isDesktop()').octicon.octicon-file-text
+
+      fa-modifier(id="built-by")
+        fa-surface(
+          fa-size="[true, true]"
+        ).built-by
+          | built by 
+          span.link
+            a(href='http://thomasstreet.com/') Thomas Street
+          |  for 
+          span.link
+            a(href='http://famo.us/') Famo.us
+
+      fa-modifier(id="scroll-message")
+        fa-surface(
+          fa-size="[true, true]"
+          ng-mouseover="startArrowAnimation()"
+          ng-mouseleave="endArrowAnimation()"
+        ).scroll-message
+          a(ui-sref='1')
+            .scroll-to SCROLL TO
+            .see-it see it in action
+
+      fa-modifier(id="down-arrow")
+        fa-modifier(id="down-arrow-animation")
+          fa-surface(
+            fa-size="[true, true]"
+            ng-mouseover="startArrowAnimation()"
+            ng-mouseleave="endArrowAnimation()"
+          )
+            a(ui-sref='1')
+              img.down-arrow-image(src='img/downarrow.svg')

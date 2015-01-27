@@ -1,0 +1,50 @@
+@import '../common/variables'
+
+/***********************************************************************
+  Mobile State Nav
+***********************************************************************/
+
+#viewport
+
+  .mobile-nav-logo
+    a
+      margin-top 35px
+      margin-left 25px
+      padding 20px 20px
+      display block
+      height 100%
+
+      .logo
+        height 50px
+
+  .set-nav-perspective
+    perspective-origin 85% 50%
+    perspective 1000px
+    backface-visibility visible !important
+
+    .famous-angular
+      h1
+        font-weight bold
+        font-size 59px
+        color white
+
+      .angular-text
+        color #DA262E
+
+    .menu-item
+      padding-top 24px
+      color black
+      font-size 50px
+      text-align center
+      background white
+      border-radius 10px
+      backface-visibility visible !important
+
+      &.active
+        color $blue
+
+
+  .overlay-x
+    .octicon
+      font-size 100px
+      color white
