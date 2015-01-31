@@ -1,0 +1,16 @@
+<fa-app style="width: 320px; height: 568px; overflow: hidden;">
+    <fa-modifier ng-repeat="node in nodes"  fa-translate="[10,500]" fa-size="[80, 40]">
+        <fa-surface>
+          <button ng-click="remove()">Remove one</button>
+      </fa-surface>
+    </fa-modifier>
+
+  <fa-modifier ng-repeat="node in nodes"  fa-translate="node.position" fa-size="[80, 40]">
+    <fa-draggable fa-pipe-from="node.handler">
+      <fa-surface fa-background-color="'red'" fa-size="[undefined, undefined]" fa-pipe-to="node.handler">
+        {{node.id}}: {{node.name}}
+      </fa-surface>
+    </fa-draggable>
+  </fa-modifier>
+
+</fa-app>

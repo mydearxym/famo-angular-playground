@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df76b688-2cf1-4fae-8e50-a920a48fbbb2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/analytics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/api_menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/api_menu_unstable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/api_version_select.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/base_scripts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/head_includes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/meta_tags.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/mix_panel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/nav_links.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/search_bar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/search_results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_includes/viewport-home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_layouts/docs_api.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_layouts/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/_plugins/ext.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/fa-app-classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/famous-navbar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/fonts.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/main.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/page-title.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/state-animation-transitions-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/state-common.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/state-utils-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/variables.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/common/viewport-scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/desktop-nav/desktop-nav-dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/desktop-nav/desktop-nav.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/desktop-nav/desktop-nav.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/docs/bootstrap-prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/docs/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/docs/docs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/docs/docs.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/docs/dropdown-toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/docs/examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/docs/faq.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/docs/sidebar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/footer/download-panel-dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/footer/download-panel.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/footer/download-panel.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/footer/state-footer-dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/footer/state-footer.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/footer/state-footer.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/mobile-nav/mobile-nav-dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/mobile-nav/mobile-nav.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/mobile-nav/mobile-navbar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/routes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/scroll-logic/keydown-state-changer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/scroll-logic/scroll-handlers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/sheets/src/directives/ts-sheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/sheets/src/module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/sheets/src/services/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-1/state-1-ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-1/state-1.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-1/state-1.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-2/state-2-ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-2/state-2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-2/state-2.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-3/state-3-ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-3/state-3.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-3/state-3.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-4/state-4-ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-4/state-4.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-4/state-4.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-5/state-5-ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-5/state-5-hero-ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-5/state-5-hero.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-5/state-5.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-5/state-5.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-download/state-download-ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-intro/state-intro-ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-intro/state-intro.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/app/state-intro/state-intro.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/deploy-to-s3.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/deploy-to-staging-s3.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/animate/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faAnimateEnter/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faAnimateHalt/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faAnimateLeave/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faAnimateMove/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faAnimation/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faApp/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faCanvasSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faClick/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faContainerSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faDraggable/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faEdgeSwapper/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faFlexibleLayout/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faFlipper/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faGridLayout/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faHeaderFooterLayout/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faImageSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faIndex/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faModifier/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faOptions/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faPipeFrom/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faPipeTo/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faRenderNode/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faScrollView/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faSequentialLayout/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faTap/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faTouchend/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faTouchmove/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faTouchstart/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faVideoSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/faView/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngBlur/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngClick/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngCopy/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngCut/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngDblclick/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngFocus/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngKeydown/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngKeypress/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngKeyup/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngMousedown/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngMouseenter/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngMouseleave/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngMousemove/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngMouseover/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngMouseup/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngPaste/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/directive/ngSubmit/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/provider/$famousProvider/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/service/$animate/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/service/$famous/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/service/$famousDecorator/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/service/$famousPipe/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/api/service/$timeline/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/animate/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faAnimateEnter/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faAnimateHalt/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faAnimateLeave/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faAnimateMove/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faAnimation/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faApp/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faCanvasSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faClick/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faContainerSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faDraggable/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faEdgeSwapper/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faFlexibleLayout/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faFlipper/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faGridLayout/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faHeaderFooterLayout/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faImageSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faIndex/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faModifier/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faOptions/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faPipeFrom/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faPipeTo/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faRenderNode/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faScrollView/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faSequentialLayout/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faTap/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faTouchend/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faTouchmove/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faTouchstart/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faVideoSurface/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/faView/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngBlur/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngClick/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngCopy/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngCut/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngDblclick/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngFocus/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngKeydown/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngKeypress/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngKeyup/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngMousedown/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngMouseenter/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngMouseleave/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngMousemove/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngMouseover/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngMouseup/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngPaste/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/directive/ngSubmit/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/provider/$famousProvider/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/service/$animate/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/service/$famous/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/service/$famousDecorator/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/service/$famousPipe/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/api/service/$timeline/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/docs/unstable/src/scripts/directives/undefined.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example1/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example1/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example1/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example10/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example10/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example10/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example10/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example11/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example11/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example12/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example12/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example13/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example13/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example14/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example14/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example15/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example15/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example16/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example16/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example17/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example17/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example18/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example18/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example19/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example19/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example2/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example2/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example2/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example20/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example20/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example21/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example21/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example22/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example22/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example23/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example23/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example24/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example24/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example25/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example25/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example25/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example25/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example26/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example26/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example26/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example26/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example27/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example27/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example27/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example27/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example28/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example28/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example28/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example29/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example29/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example29/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example3/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example3/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example3/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example30/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example30/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example30/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example31/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example31/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example31/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example31/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example32/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example32/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example32/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example33/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example33/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example33/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example34/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example34/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example34/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example35/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example35/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example35/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example35/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example36/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example36/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example36/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example36/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example37/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example37/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example37/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example38/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example38/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example38/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example39/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example39/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example39/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example39/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example4/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example4/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example4/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example4/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example40/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example40/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example40/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example41/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example41/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example41/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example42/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example42/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example42/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example42/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example43/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example43/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example43/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example44/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example44/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example44/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example45/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example45/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example45/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example46/helloWorld.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example46/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example46/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example46/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example46/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example47/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example47/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example47/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example47/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example48/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example48/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example48/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example49/helloWorld.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example49/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example49/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example49/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example49/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example5/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example5/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example5/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example5/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example50/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example50/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example50/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example50/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example51/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example51/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example51/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example52/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example52/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example52/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example52/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example53/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example53/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example53/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example53/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example54/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example54/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example54/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example55/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example55/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example55/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example56/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example56/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example56/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example57/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example57/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example57/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example58/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example58/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example58/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example59/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example59/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example59/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example6/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example6/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example6/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example6/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example60/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example60/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example60/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example61/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example61/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example61/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example7/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example7/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example7/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example7/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example8/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example8/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example8/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example8/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example9/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example9/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example9/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/examples/example-example9/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/faq/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/3a42a252-67ff-4186-88cf-762f56719ca1.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/7a1b7ae7-5c29-481f-83ac-652e932c5509.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-Hairline.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-HairlineItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/Lato-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Bold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Bold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Bold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-BoldItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-BoldItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-BoldItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-BoldItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Italic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Italic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Italic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Italic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/OpenSans-Regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/avenir.ttc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/b0908846-3d5c-4768-af33-5f968b1da156.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/dbc39ae3-2636-4653-a23e-8938bce2cf51.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/fonts/fe1602be-28ca-467e-9cd3-7bfc586f31bc.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/TS_Just_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/cats/cat1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/cats/cat2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/cats/cat3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/cats/cat4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/cats/cat5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/cats/cat6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/cats/cat7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/cats/cat8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/dependency_x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/downarrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/famous-angular-logos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/famous-angular-menu-logo_x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/famous-angular-white-logo_x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/famous-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/famous_logo_white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/modules_x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/routing_x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/img/webframe_x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/libs/css/syntax-hightlighting.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/libs/js/famous-global.0.2.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/libs/js/highlight.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famous-angular-docs/todo.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/main.html" afterPath="$PROJECT_DIR$/app/partials/main.html" />
+    </list>
+    <ignored path="famous-angular.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="famous-angular" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.769231" vertical-offset="51" max-vertical-offset="765">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/partials/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="561">
+              <caret line="24" column="99" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="99" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#fa-surface#0;n#fa-modifier#0;n#fa-app#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-ctrl.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/main/main-ctrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27459618" vertical-offset="0" max-vertical-offset="681">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/partials/main.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="22" />
+    <option name="width" value="1276" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famous-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="project.propVCSSupport.Confirmation" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df76b688-2cf1-4fae-8e50-a920a48fbbb2" name="Default" comment="" />
+      <created>1422456445228</created>
+      <updated>1422456445228</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="22" width="1276" height="778" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="51" max-vertical-offset="765">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/famousAngularStarter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37444934" vertical-offset="0" max-vertical-offset="681">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="561">
+          <caret line="24" column="99" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="99" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#fa-surface#0;n#fa-modifier#0;n#fa-app#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main/main-ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27459618" vertical-offset="0" max-vertical-offset="681">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

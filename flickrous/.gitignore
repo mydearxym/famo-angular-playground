@@ -1,9 +1,7 @@
+config-svc.js
 .DS_Store
 node_modules
-examples/node_modules
 dist
 .tmp
 .sass-cache
 app/bower_components
-examples/app/bower_components/
-

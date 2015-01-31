@@ -1,9 +1,0 @@
-{% assign lvl = page.url | append:'X' | split:'/' | size %}
-{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
-<!--Bower Scripts-->
-<!--<link rel="stylesheet" href="/bower_components/famous/core/famous.css">-->
-<link rel="stylesheet" href="{{relative}}bower_components/bootstrap/dist/css/bootstrap.min.css">
-
-<link href="{{relative}}build/main.min.css" rel="stylesheet">
-
-{% include analytics.html %}
